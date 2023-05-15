@@ -1,0 +1,11 @@
+{
+  "name": "@nether/tsconfig",
+  "exports": {
+    ".": "./tsconfig.json",
+    "./react": "./react.json",
+    "./package.json": "./package.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

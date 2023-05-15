@@ -18,11 +18,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {\
         "name": "eslint-config-nether",\
         "reference": "workspace:packages/eslint-config-nether"\
+      },\
+      {\
+        "name": "@nether/tsconfig",\
+        "reference": "workspace:packages/tsconfig"\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
+      ["@nether/tsconfig", ["workspace:packages/tsconfig"]],\
       ["eslint-config-nether", ["workspace:packages/eslint-config-nether"]],\
       ["nether", ["workspace:."]]\
     ],\
@@ -127,6 +132,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@humanwhocodes/object-schema", "npm:1.2.1"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@nether/tsconfig", [\
+        ["workspace:packages/tsconfig", {\
+          "packageLocation": "./packages/tsconfig/",\
+          "packageDependencies": [\
+            ["@nether/tsconfig", "workspace:packages/tsconfig"],\
+            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["@nodelib/fs.scandir", [\
