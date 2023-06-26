@@ -1,0 +1,8 @@
+{
+  "name": "@nether/craft",
+  "devDependencies": {
+    "@nether/tsconfig": "workspace:^",
+    "eslint-config-nether": "workspace:^",
+    "typescript": "^5.1.3"
+  }
+}
