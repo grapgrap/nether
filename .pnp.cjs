@@ -244,7 +244,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["grapheme-splitter", "npm:1.0.4"],\
             ["ignore", "npm:5.2.4"],\
             ["natural-compare-lite", "npm:1.4.0"],\
-            ["semver", "npm:7.5.0"],\
+            ["semver", "npm:7.5.3"],\
             ["tsutils", "virtual:744ba449cdc21a5f3240787305ad0fe7a04f93dd328a15f4c94ac41a1b76efe090f6af935443e00d47984f673406bf571b0d53b7fb093ef78582cf08cca5bb52#npm:3.21.0"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=77c9e2"]\
           ],\
@@ -357,7 +357,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:531b6e79f7bcef9fa432316ab3ce4b1417df151c8e8350181023a666d55724fcedfdfe50cba6ee7c25a5adbd4f024013f036b79fb10bed8621708e2f7d85e6c6#npm:4.3.4"],\
             ["globby", "npm:11.1.0"],\
             ["is-glob", "npm:4.0.3"],\
-            ["semver", "npm:7.5.0"],\
+            ["semver", "npm:7.5.3"],\
             ["tsutils", "virtual:744ba449cdc21a5f3240787305ad0fe7a04f93dd328a15f4c94ac41a1b76efe090f6af935443e00d47984f673406bf571b0d53b7fb093ef78582cf08cca5bb52#npm:3.21.0"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=77c9e2"]\
           ],\
@@ -377,7 +377,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:531b6e79f7bcef9fa432316ab3ce4b1417df151c8e8350181023a666d55724fcedfdfe50cba6ee7c25a5adbd4f024013f036b79fb10bed8621708e2f7d85e6c6#npm:4.3.4"],\
             ["globby", "npm:11.1.0"],\
             ["is-glob", "npm:4.0.3"],\
-            ["semver", "npm:7.5.0"],\
+            ["semver", "npm:7.5.3"],\
             ["tsutils", "virtual:00ac8d5a5c1e5601e3b3b0ccb850809a50222b78d2e8dad466d9b77e317d5e6ac2b6395a0826d80a0761dfae57479c000bf2ece98e824502bdd1a1816f6bf2fe#npm:3.21.0"],\
             ["typescript", null]\
           ],\
@@ -409,7 +409,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/typescript-estree", "virtual:4df90e413026844acf544cb6dd97383794482a5012eeec512899ab5aa4bee26d07dcdc70edaca56f5b16fe88123999358437f90c6a0770c22743d2d5947a039e#npm:5.59.5"],\
             ["eslint", "npm:8.40.0"],\
             ["eslint-scope", "npm:5.1.1"],\
-            ["semver", "npm:7.5.0"]\
+            ["semver", "npm:7.5.3"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -1531,10 +1531,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["semver", [\
-        ["npm:7.5.0", {\
-          "packageLocation": "./.yarn/cache/semver-npm-7.5.0-160502ad5d-2d26693775.zip/node_modules/semver/",\
+        ["npm:7.5.3", {\
+          "packageLocation": "./.yarn/cache/semver-npm-7.5.3-275095dbf3-9d58db1652.zip/node_modules/semver/",\
           "packageDependencies": [\
-            ["semver", "npm:7.5.0"],\
+            ["semver", "npm:7.5.3"],\
             ["lru-cache", "npm:6.0.0"]\
           ],\
           "linkType": "HARD"\
