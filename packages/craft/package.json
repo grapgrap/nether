@@ -5,8 +5,7 @@
     "./craft.css": "./src/index.css"
   },
   "scripts": {
-    "codegen": "panda codegen",
-    "cssgen": "panda cssgen",
+    "prepare": "panda codegen",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
