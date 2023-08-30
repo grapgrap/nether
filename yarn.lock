@@ -2539,6 +2539,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@nether/prettier-config@workspace:packages/prettier-config":
+  version: 0.0.0-use.local
+  resolution: "@nether/prettier-config@workspace:packages/prettier-config"
+  dependencies:
+    prettier: ^3.0.3
+  languageName: unknown
+  linkType: soft
+
 "@nether/tsconfig@workspace:^, @nether/tsconfig@workspace:packages/tsconfig":
   version: 0.0.0-use.local
   resolution: "@nether/tsconfig@workspace:packages/tsconfig"

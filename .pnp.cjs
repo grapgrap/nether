@@ -24,6 +24,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:packages/eslint-config-nether"\
       },\
       {\
+        "name": "@nether/prettier-config",\
+        "reference": "workspace:packages/prettier-config"\
+      },\
+      {\
         "name": "@nether/tsconfig",\
         "reference": "workspace:packages/tsconfig"\
       }\
@@ -32,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
       ["@nether/craft", ["workspace:packages/craft"]],\
+      ["@nether/prettier-config", ["workspace:packages/prettier-config"]],\
       ["@nether/tsconfig", ["workspace:packages/tsconfig"]],\
       ["eslint-config-nether", ["virtual:fadc385f3d66ba0428d9ea534ba9531313ccdbcddec4df19ac168de405c26074b7e2e2b2f04c3856cead8233a9c67e83ca0a6d6bce38da210af0d04cbcb6bbfe#workspace:packages/eslint-config-nether", "workspace:packages/eslint-config-nether"]],\
       ["nether", ["workspace:."]]\
@@ -5012,6 +5017,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["storybook", "npm:7.0.24"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"],\
             ["vite", "virtual:fadc385f3d66ba0428d9ea534ba9531313ccdbcddec4df19ac168de405c26074b7e2e2b2f04c3856cead8233a9c67e83ca0a6d6bce38da210af0d04cbcb6bbfe#npm:4.3.9"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@nether/prettier-config", [\
+        ["workspace:packages/prettier-config", {\
+          "packageLocation": "./packages/prettier-config/",\
+          "packageDependencies": [\
+            ["@nether/prettier-config", "workspace:packages/prettier-config"],\
+            ["prettier", "npm:3.0.3"]\
           ],\
           "linkType": "SOFT"\
         }]\
