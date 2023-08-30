@@ -11440,6 +11440,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/eslint-config-nether-virtual-0778ed32e1/1/packages/eslint-config-nether/",\
           "packageDependencies": [\
             ["eslint-config-nether", "virtual:fadc385f3d66ba0428d9ea534ba9531313ccdbcddec4df19ac168de405c26074b7e2e2b2f04c3856cead8233a9c67e83ca0a6d6bce38da210af0d04cbcb6bbfe#workspace:packages/eslint-config-nether"],\
+            ["@nether/prettier-config", "workspace:packages/prettier-config"],\
             ["@rushstack/eslint-patch", "npm:1.2.0"],\
             ["@types/eslint", null],\
             ["@types/prettier", null],\
@@ -11472,6 +11473,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/eslint-config-nether/",\
           "packageDependencies": [\
             ["eslint-config-nether", "workspace:packages/eslint-config-nether"],\
+            ["@nether/prettier-config", "workspace:packages/prettier-config"],\
             ["@rushstack/eslint-patch", "npm:1.2.0"],\
             ["@typescript-eslint/eslint-plugin", "virtual:bea0bb98255d1dc2ec8a5367d2203b351c5e5b539dc37cd0fc16b0852c61a4d28fd28df064ade2a2abbb12d37e0f99e054330dcc771c77ddacd068afa57ea5c4#npm:5.59.5"],\
             ["@typescript-eslint/parser", "virtual:bea0bb98255d1dc2ec8a5367d2203b351c5e5b539dc37cd0fc16b0852c61a4d28fd28df064ade2a2abbb12d37e0f99e054330dcc771c77ddacd068afa57ea5c4#npm:5.59.5"],\
