@@ -24,6 +24,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:packages/eslint-config-nether"\
       },\
       {\
+        "name": "@nether/prettier-config",\
+        "reference": "workspace:packages/prettier-config"\
+      },\
+      {\
         "name": "@nether/tsconfig",\
         "reference": "workspace:packages/tsconfig"\
       }\
@@ -32,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
       ["@nether/craft", ["workspace:packages/craft"]],\
+      ["@nether/prettier-config", ["workspace:packages/prettier-config"]],\
       ["@nether/tsconfig", ["workspace:packages/tsconfig"]],\
       ["eslint-config-nether", ["virtual:fadc385f3d66ba0428d9ea534ba9531313ccdbcddec4df19ac168de405c26074b7e2e2b2f04c3856cead8233a9c67e83ca0a6d6bce38da210af0d04cbcb6bbfe#workspace:packages/eslint-config-nether", "workspace:packages/eslint-config-nether"]],\
       ["nether", ["workspace:."]]\
@@ -44,7 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["eslint", "npm:8.40.0"],\
-            ["prettier", "npm:2.8.8"],\
+            ["prettier", "npm:3.0.3"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"]\
           ],\
           "linkType": "SOFT"\
@@ -5012,6 +5017,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["storybook", "npm:7.0.24"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"],\
             ["vite", "virtual:fadc385f3d66ba0428d9ea534ba9531313ccdbcddec4df19ac168de405c26074b7e2e2b2f04c3856cead8233a9c67e83ca0a6d6bce38da210af0d04cbcb6bbfe#npm:4.3.9"]\
+          ],\
+          "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["@nether/prettier-config", [\
+        ["workspace:packages/prettier-config", {\
+          "packageLocation": "./packages/prettier-config/",\
+          "packageDependencies": [\
+            ["@nether/prettier-config", "workspace:packages/prettier-config"],\
+            ["prettier", "npm:3.0.3"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -11425,6 +11440,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/eslint-config-nether-virtual-0778ed32e1/1/packages/eslint-config-nether/",\
           "packageDependencies": [\
             ["eslint-config-nether", "virtual:fadc385f3d66ba0428d9ea534ba9531313ccdbcddec4df19ac168de405c26074b7e2e2b2f04c3856cead8233a9c67e83ca0a6d6bce38da210af0d04cbcb6bbfe#workspace:packages/eslint-config-nether"],\
+            ["@nether/prettier-config", "workspace:packages/prettier-config"],\
             ["@rushstack/eslint-patch", "npm:1.2.0"],\
             ["@types/eslint", null],\
             ["@types/prettier", null],\
@@ -11435,7 +11451,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:0778ed32e1ccfa918e915c7786760dfd27b64f74d526137b58fbe40fee665f1d664ce300744d561a817e6ca0429183eea0dab4a0511cb75eb4cd39b559b061d3#npm:5.59.5"],\
             ["eslint", "npm:8.43.0"],\
             ["eslint-config-prettier", "virtual:0778ed32e1ccfa918e915c7786760dfd27b64f74d526137b58fbe40fee665f1d664ce300744d561a817e6ca0429183eea0dab4a0511cb75eb4cd39b559b061d3#npm:8.8.0"],\
-            ["prettier", "npm:2.8.8"],\
+            ["prettier", "npm:3.0.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:fadc385f3d66ba0428d9ea534ba9531313ccdbcddec4df19ac168de405c26074b7e2e2b2f04c3856cead8233a9c67e83ca0a6d6bce38da210af0d04cbcb6bbfe#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"]\
@@ -11457,12 +11473,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/eslint-config-nether/",\
           "packageDependencies": [\
             ["eslint-config-nether", "workspace:packages/eslint-config-nether"],\
+            ["@nether/prettier-config", "workspace:packages/prettier-config"],\
             ["@rushstack/eslint-patch", "npm:1.2.0"],\
             ["@typescript-eslint/eslint-plugin", "virtual:bea0bb98255d1dc2ec8a5367d2203b351c5e5b539dc37cd0fc16b0852c61a4d28fd28df064ade2a2abbb12d37e0f99e054330dcc771c77ddacd068afa57ea5c4#npm:5.59.5"],\
             ["@typescript-eslint/parser", "virtual:bea0bb98255d1dc2ec8a5367d2203b351c5e5b539dc37cd0fc16b0852c61a4d28fd28df064ade2a2abbb12d37e0f99e054330dcc771c77ddacd068afa57ea5c4#npm:5.59.5"],\
             ["eslint", "npm:8.40.0"],\
             ["eslint-config-prettier", "virtual:bea0bb98255d1dc2ec8a5367d2203b351c5e5b539dc37cd0fc16b0852c61a4d28fd28df064ade2a2abbb12d37e0f99e054330dcc771c77ddacd068afa57ea5c4#npm:8.8.0"],\
-            ["prettier", "npm:2.8.8"],\
+            ["prettier", "npm:3.0.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:66fba2fbd00c552ac6e14de865565622083ad3a97a235e8ed51311f25e5674db76cacf2ad889f59ce65e9d700dbe207962a7ceaa4b50f677991d650113afd9b2#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"]\
@@ -15242,7 +15259,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["nether", "workspace:."],\
             ["eslint", "npm:8.40.0"],\
-            ["prettier", "npm:2.8.8"],\
+            ["prettier", "npm:3.0.3"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"]\
           ],\
           "linkType": "SOFT"\
@@ -16223,6 +16240,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/prettier-npm-2.8.8-430828a36c-b49e409431.zip/node_modules/prettier/",\
           "packageDependencies": [\
             ["prettier", "npm:2.8.8"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:3.0.3", {\
+          "packageLocation": "./.yarn/unplugged/prettier-npm-3.0.3-fced695dae/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:3.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
