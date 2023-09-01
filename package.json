@@ -1,12 +1,12 @@
 {
   "name": "nether",
-  "packageManager": "yarn@3.6.0",
+  "packageManager": "yarn@3.6.3",
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "eslint": "^8.40.0",
+    "eslint": "^8.48.0",
     "prettier": "^3.0.3",
-    "typescript": "^5.1.3"
+    "typescript": "^5.2.2"
   }
 }
