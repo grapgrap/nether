@@ -6,6 +6,9 @@
     ".": {
       "require": "./configs/base.cjs"
     },
+    "./react": {
+      "require": "./configs/react.cjs"
+    },
     "./patch/modern-module-resolution": {
       "require": "./patch/modern-module-resolution.cjs"
     },
@@ -15,7 +18,9 @@
     "@rushstack/eslint-patch": "^1.3.3",
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "@typescript-eslint/parser": "^6.5.0",
-    "eslint-config-prettier": "^9.0.0"
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
     "@nether/prettier-config": "workspace:^",
