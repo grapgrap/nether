@@ -3,8 +3,10 @@ require("../patch/modern-module-resolution.cjs");
 module.exports = {
   root: true,
   env: {
-    es6: true,
+    browser: true,
+    es2022: true,
     node: true,
+    jest: true,
   },
   extends: [
     "eslint:recommended",
@@ -12,5 +14,5 @@ module.exports = {
     "prettier",
   ],
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint"],
+  parserOptions: { sourceType: "module" },
 };
