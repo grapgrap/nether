@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["nether", "plugin:storybook/recommended"]
+  extends: ["nether/react", "plugin:storybook/recommended"],
 };
