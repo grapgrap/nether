@@ -1,6 +1,6 @@
 import { Corner } from "@radix-ui/react-scroll-area";
 import type { Meta, StoryObj } from "@storybook/react";
-import { Root, ScrollBar, Thumb, Viewport } from "./index";
+import { Root, Scrollbar, Thumb, Viewport } from "./index";
 
 const meta: Meta = {
   title: "Scroll Areas",
@@ -51,12 +51,12 @@ const Basic = ({ count }: Props) => {
             </div>
           ))}
         </Viewport>
-        <ScrollBar orientation="horizontal">
+        <Scrollbar orientation="horizontal">
           <Thumb />
-        </ScrollBar>
-        <ScrollBar orientation="vertical">
+        </Scrollbar>
+        <Scrollbar orientation="vertical">
           <Thumb />
-        </ScrollBar>
+        </Scrollbar>
         <Corner />
       </Root>
     </div>
