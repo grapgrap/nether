@@ -260,7 +260,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["dset", "npm:3.1.2"],\
             ["is-docker", "npm:3.0.0"],\
             ["is-wsl", "npm:2.2.0"],\
-            ["undici", "npm:5.22.1"],\
+            ["undici", "npm:5.26.3"],\
             ["which-pm-runs", "npm:1.1.0"]\
           ],\
           "linkType": "HARD"\
@@ -271,7 +271,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@astrojs-webapi-npm-2.2.0-bae65b49bd-2e6bbf1306.zip/node_modules/@astrojs/webapi/",\
           "packageDependencies": [\
             ["@astrojs/webapi", "npm:2.2.0"],\
-            ["undici", "npm:5.22.1"]\
+            ["undici", "npm:5.26.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4642,6 +4642,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@fal-works-esbuild-plugin-global-externals-npm-2.1.2-b50ef0c6e7-c59715902b.zip/node_modules/@fal-works/esbuild-plugin-global-externals/",\
           "packageDependencies": [\
             ["@fal-works/esbuild-plugin-global-externals", "npm:2.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fastify/busboy", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/@fastify-busboy-npm-2.0.0-c6baf48382-41879937ce.zip/node_modules/@fastify/busboy/",\
+          "packageDependencies": [\
+            ["@fastify/busboy", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10003,16 +10012,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["bundle-name", "npm:3.0.0"],\
             ["run-applescript", "npm:5.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["busboy", [\
-        ["npm:1.6.0", {\
-          "packageLocation": "./.yarn/cache/busboy-npm-1.6.0-ebb5cbb04b-32801e2c01.zip/node_modules/busboy/",\
-          "packageDependencies": [\
-            ["busboy", "npm:1.6.0"],\
-            ["streamsearch", "npm:1.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -18254,15 +18253,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["streamsearch", [\
-        ["npm:1.1.0", {\
-          "packageLocation": "./.yarn/cache/streamsearch-npm-1.1.0-fc3ad6536d-1cce16cea8.zip/node_modules/streamsearch/",\
-          "packageDependencies": [\
-            ["streamsearch", "npm:1.1.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["string-argv", [\
         ["npm:0.3.2", {\
           "packageLocation": "./.yarn/cache/string-argv-npm-0.3.2-6e057a88f1-8703ad3f3d.zip/node_modules/string-argv/",\
@@ -19115,11 +19105,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["undici", [\
-        ["npm:5.22.1", {\
-          "packageLocation": "./.yarn/cache/undici-npm-5.22.1-ff9b0b961e-048a3365f6.zip/node_modules/undici/",\
+        ["npm:5.26.3", {\
+          "packageLocation": "./.yarn/cache/undici-npm-5.26.3-bdeea4fdde-aaa9aadb71.zip/node_modules/undici/",\
           "packageDependencies": [\
-            ["undici", "npm:5.22.1"],\
-            ["busboy", "npm:1.6.0"]\
+            ["undici", "npm:5.26.3"],\
+            ["@fastify/busboy", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
