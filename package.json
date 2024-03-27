@@ -9,6 +9,7 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
+    "@nether/argus": "workspace:^",
     "@nether/prettier-config": "workspace:^",
     "eslint": "^8.48.0",
     "husky": "^8.0.0",

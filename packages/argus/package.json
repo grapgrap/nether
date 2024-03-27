@@ -1,0 +1,21 @@
+{
+  "name": "@nether/argus",
+  "type": "module",
+  "bin": "./bin/bin.mjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "watch": "yarn build --watch"
+  },
+  "devDependencies": {
+    "@nether/tsconfig": "workspace:^",
+    "@types/node": "^20.11.30",
+    "eslint": "^8.57.0",
+    "eslint-config-nether": "workspace:^",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@parcel/watcher": "^2.4.1",
+    "clipanion": "^4.0.0-rc.3",
+    "typanion": "^3.14.0"
+  }
+}

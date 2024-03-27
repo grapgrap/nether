@@ -1,8 +1,10 @@
 {
-  "extends": "@nether/tsconfig",
-  "include": ["src"],
+  "extends": "@nether/tsconfig/tsconfig",
+  "include": ["./src"],
   "compilerOptions": {
-    "rootDir": "./src",
-    "lib": ["ESNext"]
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["esnext"],
+    "rootDir": "./src"
   }
 }

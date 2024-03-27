@@ -1,7 +1,7 @@
 {
   "name": "@nether/tsconfig",
   "exports": {
-    ".": "./tsconfig.json",
+    "./tsconfig": "./tsconfig.json",
     "./react": "./react.json",
     "./package.json": "./package.json"
   },
