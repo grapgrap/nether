@@ -1,0 +1,16 @@
+{
+  "name": "@nether/dev-server",
+  "type": "module",
+  "dependencies": {
+    "@fastify/websocket": "^10.0.1",
+    "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "@nether/tsconfig": "workspace:^",
+    "@types/node": "^20.12.2",
+    "@types/ws": "^8.5.10",
+    "eslint": "^8.57.0",
+    "eslint-config-nether": "workspace:^",
+    "typescript": "^5.4.3"
+  }
+}

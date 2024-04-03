@@ -1,0 +1,7 @@
+{
+  "extends": ["@nether/tsconfig/react"],
+  "include": ["src"],
+  "compilerOptions": {
+    "lib": ["esnext", "dom", "dom.iterable"]
+  }
+}
