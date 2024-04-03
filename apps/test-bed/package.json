@@ -1,7 +1,8 @@
 {
   "name": "@nether/test-bed",
   "scripts": {
-    "build": "webpack --config webpack.config.mjs"
+    "build:webpack": "webpack --config webpack.config.mjs",
+    "build:script": "node ./scripts/build.mjs"
   },
   "dependencies": {
     "react": "^18.2.0",
