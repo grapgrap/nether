@@ -3854,6 +3854,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./apps/test-bed/",\
         "packageDependencies": [\
           ["@nether/test-bed", "workspace:apps/test-bed"],\
+          ["@nether/argus", "workspace:packages/argus"],\
           ["@nether/dev-server", "workspace:packages/dev-server"],\
           ["@nether/tsconfig", "workspace:packages/tsconfig"],\
           ["@swc/core", "virtual:1ae744a59d9432c169cd4fc82ec1544bd07f4dbebaf25b709e74c39722f502fab0b0107b11e6e83911b9ee32e751875feccc5f33c0079c72e627757da23bb051#npm:1.4.11"],\

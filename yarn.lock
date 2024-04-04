@@ -2400,6 +2400,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nether/test-bed@workspace:apps/test-bed"
   dependencies:
+    "@nether/argus": "workspace:^"
     "@nether/dev-server": "workspace:^"
     "@nether/tsconfig": "workspace:^"
     "@swc/core": "npm:^1.4.11"

@@ -3,13 +3,15 @@
   "scripts": {
     "build:webpack": "webpack --config webpack.config.mjs",
     "build:script": "node ./scripts/build.mjs",
-    "serve": "node ./scripts/serve.mjs"
+    "serve": "node ./scripts/serve.mjs",
+    "watch": "node ./scripts/watch.mjs"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@nether/argus": "workspace:^",
     "@nether/dev-server": "workspace:^",
     "@nether/tsconfig": "workspace:^",
     "@swc/core": "^1.4.11",
