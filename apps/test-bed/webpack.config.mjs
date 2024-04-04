@@ -24,6 +24,19 @@ const config = {
         exclude: /(node_modules)/,
         use: {
           loader: require.resolve("swc-loader"),
+          options: {
+            jsc: {
+              parser: {
+                syntax: "typescript",
+                tsx: true,
+              },
+              transform: {
+                react: {
+                  runtime: "automatic",
+                },
+              },
+            },
+          },
         },
       },
     ],

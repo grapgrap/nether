@@ -2,13 +2,15 @@
   "name": "@nether/test-bed",
   "scripts": {
     "build:webpack": "webpack --config webpack.config.mjs",
-    "build:script": "node ./scripts/build.mjs"
+    "build:script": "node ./scripts/build.mjs",
+    "serve": "node ./scripts/serve.mjs"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@nether/dev-server": "workspace:^",
     "@nether/tsconfig": "workspace:^",
     "@swc/core": "^1.4.11",
     "@types/node": "^20.12.3",

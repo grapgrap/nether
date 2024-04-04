@@ -3221,6 +3221,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@fastify/accept-negotiator", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "./.yarn/cache/@fastify-accept-negotiator-npm-1.1.0-0ebfac37a0-5c8f263680.zip/node_modules/@fastify/accept-negotiator/",\
+        "packageDependencies": [\
+          ["@fastify/accept-negotiator", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@fastify/ajv-compiler", [\
       ["npm:3.5.0", {\
         "packageLocation": "./.yarn/cache/@fastify-ajv-compiler-npm-3.5.0-d1a90dc51f-c46c4680bf.zip/node_modules/@fastify/ajv-compiler/",\
@@ -3258,6 +3267,48 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@fastify/merge-json-schemas", "npm:0.1.1"],\
           ["fast-deep-equal", "npm:3.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@fastify/send", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "./.yarn/cache/@fastify-send-npm-2.1.0-72d39a2331-22bc3e5196.zip/node_modules/@fastify/send/",\
+        "packageDependencies": [\
+          ["@fastify/send", "npm:2.1.0"],\
+          ["@lukeed/ms", "npm:2.0.2"],\
+          ["escape-html", "npm:1.0.3"],\
+          ["fast-decode-uri-component", "npm:1.0.1"],\
+          ["http-errors", "npm:2.0.0"],\
+          ["mime", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@fastify/static", [\
+      ["npm:7.0.3", {\
+        "packageLocation": "./.yarn/cache/@fastify-static-npm-7.0.3-cdcde73795-c7b9fb2aef.zip/node_modules/@fastify/static/",\
+        "packageDependencies": [\
+          ["@fastify/static", "npm:7.0.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:904d514ea73f517fcc717715213eb7c5ffd5483237cd961a686c2ee0c56a825c095c0494fb1675ff8f58ceb859a7240e66256b290e3c8c5150563075a136606c#npm:7.0.3", {\
+        "packageLocation": "./.yarn/__virtual__/@fastify-static-virtual-177fa67062/0/cache/@fastify-static-npm-7.0.3-cdcde73795-c7b9fb2aef.zip/node_modules/@fastify/static/",\
+        "packageDependencies": [\
+          ["@fastify/static", "virtual:904d514ea73f517fcc717715213eb7c5ffd5483237cd961a686c2ee0c56a825c095c0494fb1675ff8f58ceb859a7240e66256b290e3c8c5150563075a136606c#npm:7.0.3"],\
+          ["@fastify/accept-negotiator", "npm:1.1.0"],\
+          ["@fastify/send", "npm:2.1.0"],\
+          ["@types/fastify", null],\
+          ["content-disposition", "npm:0.5.4"],\
+          ["fastify", "npm:4.26.2"],\
+          ["fastify-plugin", "npm:4.5.1"],\
+          ["fastq", "npm:1.17.1"],\
+          ["glob", "npm:10.3.12"]\
+        ],\
+        "packagePeers": [\
+          "@types/fastify",\
+          "fastify"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3660,6 +3711,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@lukeed/ms", [\
+      ["npm:2.0.2", {\
+        "packageLocation": "./.yarn/cache/@lukeed-ms-npm-2.0.2-5e69b6e173-6ae47ed3eb.zip/node_modules/@lukeed/ms/",\
+        "packageDependencies": [\
+          ["@lukeed/ms", "npm:2.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@mdx-js/react", [\
       ["npm:2.3.0", {\
         "packageLocation": "./.yarn/cache/@mdx-js-react-npm-2.3.0-d5582a450b-bce1cb1dde.zip/node_modules/@mdx-js/react/",\
@@ -3751,6 +3811,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/dev-server/",\
         "packageDependencies": [\
           ["@nether/dev-server", "workspace:packages/dev-server"],\
+          ["@fastify/static", "virtual:904d514ea73f517fcc717715213eb7c5ffd5483237cd961a686c2ee0c56a825c095c0494fb1675ff8f58ceb859a7240e66256b290e3c8c5150563075a136606c#npm:7.0.3"],\
           ["@fastify/websocket", "virtual:904d514ea73f517fcc717715213eb7c5ffd5483237cd961a686c2ee0c56a825c095c0494fb1675ff8f58ceb859a7240e66256b290e3c8c5150563075a136606c#npm:10.0.1"],\
           ["@nether/tsconfig", "workspace:packages/tsconfig"],\
           ["@types/node", "npm:20.12.2"],\
@@ -3793,6 +3854,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./apps/test-bed/",\
         "packageDependencies": [\
           ["@nether/test-bed", "workspace:apps/test-bed"],\
+          ["@nether/dev-server", "workspace:packages/dev-server"],\
           ["@nether/tsconfig", "workspace:packages/tsconfig"],\
           ["@swc/core", "virtual:1ae744a59d9432c169cd4fc82ec1544bd07f4dbebaf25b709e74c39722f502fab0b0107b11e6e83911b9ee32e751875feccc5f33c0079c72e627757da23bb051#npm:1.4.11"],\
           ["@types/node", "npm:20.12.3"],\
@@ -11645,6 +11707,18 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
+      ["npm:10.3.12", {\
+        "packageLocation": "./.yarn/cache/glob-npm-10.3.12-f2e90133a0-9e8186abc2.zip/node_modules/glob/",\
+        "packageDependencies": [\
+          ["glob", "npm:10.3.12"],\
+          ["foreground-child", "npm:3.1.1"],\
+          ["jackspeak", "npm:2.3.6"],\
+          ["minimatch", "npm:9.0.2"],\
+          ["minipass", "npm:7.0.4"],\
+          ["path-scurry", "npm:1.10.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:7.2.3", {\
         "packageLocation": "./.yarn/cache/glob-npm-7.2.3-2d866d17a5-59452a9202.zip/node_modules/glob/",\
         "packageDependencies": [\
@@ -13266,6 +13340,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
+      ["npm:10.2.0", {\
+        "packageLocation": "./.yarn/cache/lru-cache-npm-10.2.0-b9f6b44740-502ec42c33.zip/node_modules/lru-cache/",\
+        "packageDependencies": [\
+          ["lru-cache", "npm:10.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:5.1.1", {\
         "packageLocation": "./.yarn/cache/lru-cache-npm-5.1.1-f475882a51-951d2673dc.zip/node_modules/lru-cache/",\
         "packageDependencies": [\
@@ -13508,6 +13589,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/mime-npm-2.6.0-88b89d8de0-7da117808b.zip/node_modules/mime/",\
         "packageDependencies": [\
           ["mime", "npm:2.6.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:3.0.0", {\
+        "packageLocation": "./.yarn/cache/mime-npm-3.0.0-8d911e4c06-b2d31580de.zip/node_modules/mime/",\
+        "packageDependencies": [\
+          ["mime", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -14390,6 +14478,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["path-scurry", "npm:1.10.1"],\
           ["lru-cache", "npm:10.0.1"],\
+          ["minipass", "npm:7.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.10.2", {\
+        "packageLocation": "./.yarn/cache/path-scurry-npm-1.10.2-676482c764-a2bbbe8dc2.zip/node_modules/path-scurry/",\
+        "packageDependencies": [\
+          ["path-scurry", "npm:1.10.2"],\
+          ["lru-cache", "npm:10.2.0"],\
           ["minipass", "npm:7.0.4"]\
         ],\
         "linkType": "HARD"\
