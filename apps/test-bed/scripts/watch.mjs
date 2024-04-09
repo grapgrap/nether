@@ -28,8 +28,6 @@ const build = async () => {
   return promise;
 };
 
-console.log("watching");
-
 const watcher = new Watcher({
   rootPath: path.join(__dirname, "../src"),
 });
@@ -38,7 +36,7 @@ let oldServer = {
   stop: () => {},
 };
 
-await watcher.subscribe(async () => {
+const rebuild = async () => {
   oldServer.stop();
 
   const { start, stop } = await createAppServer({
@@ -49,9 +47,10 @@ await watcher.subscribe(async () => {
 
   oldServer.stop = stop;
 
-  const result = await build();
-  console.log(result.toString());
-  console.log();
-
+  /** @type {import('webpack').Stats} */
+  await build();
   await start();
-});
+};
+
+await rebuild();
+await watcher.subscribe(rebuild);

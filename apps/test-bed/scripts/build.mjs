@@ -20,7 +20,9 @@ const build = async (options) => {
     }
 
     const results = stats.toJson({
-      ids: true,
+      dependentModules: true,
+      modules: true,
+      nestedModules: true,
     });
 
     await fs.writeFile(
