@@ -5099,7 +5099,7 @@ const RAW_RUNTIME_STATE =
           ["@types/find-cache-dir", "npm:3.2.1"],\
           ["@yarnpkg/esbuild-plugin-pnp", "virtual:4035b7e49074a9fe6b2ac57657b8142221dbf58dd197708881804598e24cde999f3baef42eb92bfb06b25541d075885ba54c04d156607e47373e97319f702167#npm:3.0.0-rc.15"],\
           ["browser-assert", "npm:1.2.1"],\
-          ["ejs", "npm:3.1.9"],\
+          ["ejs", "npm:3.1.10"],\
           ["esbuild", "npm:0.18.20"],\
           ["esbuild-plugin-alias", "npm:0.2.1"],\
           ["express", "npm:4.18.2"],\
@@ -8647,10 +8647,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ejs", [\
-      ["npm:3.1.9", {\
-        "packageLocation": "./.yarn/cache/ejs-npm-3.1.9-e201b2088c-71f56d3754.zip/node_modules/ejs/",\
+      ["npm:3.1.10", {\
+        "packageLocation": "./.yarn/cache/ejs-npm-3.1.10-4e8cf4bdc1-a9cb7d7cd1.zip/node_modules/ejs/",\
         "packageDependencies": [\
-          ["ejs", "npm:3.1.9"],\
+          ["ejs", "npm:3.1.10"],\
           ["jake", "npm:10.8.7"]\
         ],\
         "linkType": "HARD"\
