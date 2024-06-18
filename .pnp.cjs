@@ -12823,7 +12823,7 @@ const RAW_RUNTIME_STATE =
           ["progress", "npm:2.0.3"],\
           ["proxy-from-env", "npm:1.1.0"],\
           ["rimraf", "npm:2.7.1"],\
-          ["ws", "virtual:0c2ef15c4fb96e600a7765c97f9f2fe2428b6e6e6d199f974a4512d619d48603b40a3bbc9cc566d1f2111997770a0cf482e601990f90f050c0fad0d3f6694077#npm:6.2.2"]\
+          ["ws", "virtual:0c2ef15c4fb96e600a7765c97f9f2fe2428b6e6e6d199f974a4512d619d48603b40a3bbc9cc566d1f2111997770a0cf482e601990f90f050c0fad0d3f6694077#npm:6.2.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -15263,10 +15263,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ws", [\
-      ["npm:6.2.2", {\
-        "packageLocation": "./.yarn/cache/ws-npm-6.2.2-ca62a10fa0-bb791ac02a.zip/node_modules/ws/",\
+      ["npm:6.2.3", {\
+        "packageLocation": "./.yarn/cache/ws-npm-6.2.3-0647b230b5-19f8d16083.zip/node_modules/ws/",\
         "packageDependencies": [\
-          ["ws", "npm:6.2.2"]\
+          ["ws", "npm:6.2.3"]\
         ],\
         "linkType": "SOFT"\
       }],\
@@ -15277,10 +15277,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:0c2ef15c4fb96e600a7765c97f9f2fe2428b6e6e6d199f974a4512d619d48603b40a3bbc9cc566d1f2111997770a0cf482e601990f90f050c0fad0d3f6694077#npm:6.2.2", {\
-        "packageLocation": "./.yarn/__virtual__/ws-virtual-fc9f73a998/0/cache/ws-npm-6.2.2-ca62a10fa0-bb791ac02a.zip/node_modules/ws/",\
+      ["virtual:0c2ef15c4fb96e600a7765c97f9f2fe2428b6e6e6d199f974a4512d619d48603b40a3bbc9cc566d1f2111997770a0cf482e601990f90f050c0fad0d3f6694077#npm:6.2.3", {\
+        "packageLocation": "./.yarn/__virtual__/ws-virtual-b7c175fc4e/0/cache/ws-npm-6.2.3-0647b230b5-19f8d16083.zip/node_modules/ws/",\
         "packageDependencies": [\
-          ["ws", "virtual:0c2ef15c4fb96e600a7765c97f9f2fe2428b6e6e6d199f974a4512d619d48603b40a3bbc9cc566d1f2111997770a0cf482e601990f90f050c0fad0d3f6694077#npm:6.2.2"],\
+          ["ws", "virtual:0c2ef15c4fb96e600a7765c97f9f2fe2428b6e6e6d199f974a4512d619d48603b40a3bbc9cc566d1f2111997770a0cf482e601990f90f050c0fad0d3f6694077#npm:6.2.3"],\
           ["@types/bufferutil", null],\
           ["@types/utf-8-validate", null],\
           ["async-limiter", "npm:1.0.1"],\
