@@ -5067,7 +5067,7 @@ const RAW_RUNTIME_STATE =
           ["color-convert", "npm:2.0.1"],\
           ["dequal", "npm:2.0.3"],\
           ["lodash", "npm:4.17.21"],\
-          ["markdown-to-jsx", "virtual:a0c213f4a5c8486c4d3c44e80a5537eb8f43ac6adb1541bde2a9b83ee3e5efaf653af9e845682ffcf4a22b60776bc54171ef0a32a1cfec6bc002a2a760633ac1#npm:7.2.1"],\
+          ["markdown-to-jsx", "virtual:a0c213f4a5c8486c4d3c44e80a5537eb8f43ac6adb1541bde2a9b83ee3e5efaf653af9e845682ffcf4a22b60776bc54171ef0a32a1cfec6bc002a2a760633ac1#npm:7.6.0"],\
           ["memoizerific", "npm:1.11.3"],\
           ["polished", "npm:4.2.2"],\
           ["react", "npm:18.2.0"],\
@@ -11523,17 +11523,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["markdown-to-jsx", [\
-      ["npm:7.2.1", {\
-        "packageLocation": "./.yarn/cache/markdown-to-jsx-npm-7.2.1-ba483be5bc-0a0641da44.zip/node_modules/markdown-to-jsx/",\
+      ["npm:7.6.0", {\
+        "packageLocation": "./.yarn/cache/markdown-to-jsx-npm-7.6.0-83ae62f3f0-aa65c66c3c.zip/node_modules/markdown-to-jsx/",\
         "packageDependencies": [\
-          ["markdown-to-jsx", "npm:7.2.1"]\
+          ["markdown-to-jsx", "npm:7.6.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:a0c213f4a5c8486c4d3c44e80a5537eb8f43ac6adb1541bde2a9b83ee3e5efaf653af9e845682ffcf4a22b60776bc54171ef0a32a1cfec6bc002a2a760633ac1#npm:7.2.1", {\
-        "packageLocation": "./.yarn/__virtual__/markdown-to-jsx-virtual-a05ecafce7/0/cache/markdown-to-jsx-npm-7.2.1-ba483be5bc-0a0641da44.zip/node_modules/markdown-to-jsx/",\
+      ["virtual:a0c213f4a5c8486c4d3c44e80a5537eb8f43ac6adb1541bde2a9b83ee3e5efaf653af9e845682ffcf4a22b60776bc54171ef0a32a1cfec6bc002a2a760633ac1#npm:7.6.0", {\
+        "packageLocation": "./.yarn/__virtual__/markdown-to-jsx-virtual-d4257c66d5/0/cache/markdown-to-jsx-npm-7.6.0-83ae62f3f0-aa65c66c3c.zip/node_modules/markdown-to-jsx/",\
         "packageDependencies": [\
-          ["markdown-to-jsx", "virtual:a0c213f4a5c8486c4d3c44e80a5537eb8f43ac6adb1541bde2a9b83ee3e5efaf653af9e845682ffcf4a22b60776bc54171ef0a32a1cfec6bc002a2a760633ac1#npm:7.2.1"],\
+          ["markdown-to-jsx", "virtual:a0c213f4a5c8486c4d3c44e80a5537eb8f43ac6adb1541bde2a9b83ee3e5efaf653af9e845682ffcf4a22b60776bc54171ef0a32a1cfec6bc002a2a760633ac1#npm:7.6.0"],\
           ["@types/react", "npm:18.2.14"],\
           ["react", "npm:18.2.0"]\
         ],\
