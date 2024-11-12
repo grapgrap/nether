@@ -5144,7 +5144,7 @@ const RAW_RUNTIME_STATE =
           ["find-cache-dir", "npm:3.3.2"],\
           ["fs-extra", "npm:11.1.1"],\
           ["magic-string", "npm:0.30.5"],\
-          ["rollup", "npm:3.29.4"],\
+          ["rollup", "npm:3.29.5"],\
           ["typescript", null],\
           ["vite", "virtual:fadc385f3d66ba0428d9ea534ba9531313ccdbcddec4df19ac168de405c26074b7e2e2b2f04c3856cead8233a9c67e83ca0a6d6bce38da210af0d04cbcb6bbfe#npm:4.5.2"],\
           ["vite-plugin-glimmerx", null]\
@@ -5185,7 +5185,7 @@ const RAW_RUNTIME_STATE =
           ["find-cache-dir", "npm:3.3.2"],\
           ["fs-extra", "npm:11.1.1"],\
           ["magic-string", "npm:0.30.5"],\
-          ["rollup", "npm:3.29.4"],\
+          ["rollup", "npm:3.29.5"],\
           ["typescript", null],\
           ["vite", "virtual:8c13e627e6deb19078d974abdd9156c85b9638933dfa78910105b7d4c03b2ff0574bba6b2db1739da7266d76042a773b9237321f0d153a21a086752b19841c68#npm:4.5.0"],\
           ["vite-plugin-glimmerx", null]\
@@ -13514,10 +13514,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["rollup", [\
-      ["npm:3.29.4", {\
-        "packageLocation": "./.yarn/cache/rollup-npm-3.29.4-5e5e5f2087-9e39d54e23.zip/node_modules/rollup/",\
+      ["npm:3.29.5", {\
+        "packageLocation": "./.yarn/cache/rollup-npm-3.29.5-4622371c71-5ce0e5f1d9.zip/node_modules/rollup/",\
         "packageDependencies": [\
-          ["rollup", "npm:3.29.4"],\
+          ["rollup", "npm:3.29.5"],\
           ["fsevents", "patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"]\
         ],\
         "linkType": "HARD"\
@@ -14932,7 +14932,7 @@ const RAW_RUNTIME_STATE =
           ["less", null],\
           ["lightningcss", null],\
           ["postcss", "npm:8.4.31"],\
-          ["rollup", "npm:3.29.4"],\
+          ["rollup", "npm:3.29.5"],\
           ["sass", null],\
           ["stylus", null],\
           ["sugarss", null],\
@@ -14971,7 +14971,7 @@ const RAW_RUNTIME_STATE =
           ["less", null],\
           ["lightningcss", null],\
           ["postcss", "npm:8.4.31"],\
-          ["rollup", "npm:3.29.4"],\
+          ["rollup", "npm:3.29.5"],\
           ["sass", null],\
           ["stylus", null],\
           ["sugarss", null],\
@@ -15010,7 +15010,7 @@ const RAW_RUNTIME_STATE =
           ["less", null],\
           ["lightningcss", null],\
           ["postcss", "npm:8.4.31"],\
-          ["rollup", "npm:3.29.4"],\
+          ["rollup", "npm:3.29.5"],\
           ["sass", null],\
           ["stylus", null],\
           ["sugarss", null],\
