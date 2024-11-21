@@ -5240,7 +5240,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/libzip", "npm:2.3.0"],\
           ["chalk", "npm:4.1.2"],\
           ["commander", "npm:6.2.1"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["detect-indent", "npm:6.1.0"],\
           ["envinfo", "npm:7.10.0"],\
           ["execa", "npm:5.1.1"],\
@@ -5291,7 +5291,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/node-logger", "npm:7.5.2"],\
           ["@storybook/types", "npm:7.5.2"],\
           ["@types/cross-spawn", "npm:6.0.4"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["globby", "npm:11.1.0"],\
           ["jscodeshift", "virtual:50a6df2a738575844ab08904ae441114d9f58fceb6dd9be8feada7b7d95b765468b289cb70fd8df9215c135bc1949c9a0534d3ba5150795713937e8fced8c3e6#npm:0.14.0"],\
           ["lodash", "npm:4.17.21"],\
@@ -8252,10 +8252,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cross-spawn", [\
-      ["npm:7.0.3", {\
-        "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.3-e4ff3e65b3-e1a13869d2.zip/node_modules/cross-spawn/",\
+      ["npm:7.0.6", {\
+        "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.6-264bddf921-0d52657d7a.zip/node_modules/cross-spawn/",\
         "packageDependencies": [\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["path-key", "npm:3.1.1"],\
           ["shebang-command", "npm:2.0.0"],\
           ["which", "npm:2.0.2"]\
@@ -9042,7 +9042,7 @@ const RAW_RUNTIME_STATE =
           ["@nodelib/fs.walk", "npm:1.2.8"],\
           ["ajv", "npm:6.12.6"],\
           ["chalk", "npm:4.1.2"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["debug", "virtual:feb0771c9f8eadaf509cfed41e14a8bebbea5442233275c1c87085111077a08ef71eb773b899665b154d8203a55a489610a54117ae059fce5f5b8b844493b1b1#npm:4.3.4"],\
           ["doctrine", "npm:3.0.0"],\
           ["escape-string-regexp", "npm:4.0.0"],\
@@ -9376,7 +9376,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/execa-npm-5.1.1-191347acf5-8ada91f2d7.zip/node_modules/execa/",\
         "packageDependencies": [\
           ["execa", "npm:5.1.1"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["get-stream", "npm:6.0.1"],\
           ["human-signals", "npm:2.1.0"],\
           ["is-stream", "npm:2.0.1"],\
@@ -9392,7 +9392,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/execa-npm-7.2.0-7797cafb24-473feff60f.zip/node_modules/execa/",\
         "packageDependencies": [\
           ["execa", "npm:7.2.0"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["get-stream", "npm:6.0.1"],\
           ["human-signals", "npm:4.3.1"],\
           ["is-stream", "npm:3.0.0"],\
@@ -9707,7 +9707,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/foreground-child-npm-3.1.1-77e78ed774-087edd4485.zip/node_modules/foreground-child/",\
         "packageDependencies": [\
           ["foreground-child", "npm:3.1.1"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["signal-exit", "npm:4.0.2"]\
         ],\
         "linkType": "HARD"\
