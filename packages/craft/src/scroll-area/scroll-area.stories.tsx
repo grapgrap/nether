@@ -1,5 +1,5 @@
 import { Corner } from "@radix-ui/react-scroll-area";
-import type { Meta, StoryObj } from "@storybook/react";
+import type { Meta, StoryObj } from "@storybook/react-vite";
 import { Root, Scrollbar, Thumb, Viewport } from "./index";
 
 const meta: Meta = {

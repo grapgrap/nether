@@ -1,26 +1,18 @@
 {
   "name": "@nether/craft",
+  "type": "module",
   "exports": {
     ".": "./src/index.ts"
   },
   "scripts": {
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
     "build": "vite build"
   },
   "devDependencies": {
     "@nether/tsconfig": "workspace:^",
-    "@storybook/addon-essentials": "^7.5.2",
-    "@storybook/addon-interactions": "^7.5.2",
-    "@storybook/addon-links": "^7.5.2",
-    "@storybook/blocks": "^7.5.2",
-    "@storybook/react": "^7.5.2",
-    "@storybook/react-vite": "^7.5.2",
-    "@storybook/testing-library": "^0.2.2",
-    "@types/node": "^20.8.10",
+    "@types/node": "^24.10.1",
     "@types/react": "^18.2.14",
-    "@vanilla-extract/vite-plugin": "^3.9.0",
-    "@vitejs/plugin-react": "^4.1.0",
+    "@vanilla-extract/vite-plugin": "^5.1.1",
+    "@vitejs/plugin-react": "^5.1.1",
     "eslint": "^9.39.1",
     "eslint-config-nether": "workspace:^",
     "eslint-plugin-storybook": "^10.0.8",
@@ -28,9 +20,8 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^7.5.2",
     "typescript": "^5.9.3",
-    "vite": "^4.5.2"
+    "vite": "^7.2.4"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.1.0",
