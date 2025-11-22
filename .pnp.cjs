@@ -54,7 +54,7 @@ const RAW_RUNTIME_STATE =
           ["lint-staged", "npm:14.0.1"],\
           ["nether", "workspace:."],\
           ["pinst", "npm:3.0.0"],\
-          ["prettier", "npm:3.0.3"],\
+          ["prettier", "npm:3.6.2"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
@@ -3920,6 +3920,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "virtual:92b74aa370a3d1b8486fcc3b03366443ca3a4065b2134d3eaa7f29eff4bed1f4ae77b27a0c0a2f11186d01da2d82ec9438549cd87928d7fc72570075a130ec83#npm:9.39.1"],\
           ["eslint-config-nether", "virtual:fadc385f3d66ba0428d9ea534ba9531313ccdbcddec4df19ac168de405c26074b7e2e2b2f04c3856cead8233a9c67e83ca0a6d6bce38da210af0d04cbcb6bbfe#workspace:packages/eslint-config-nether"],\
           ["eslint-plugin-storybook", "virtual:fadc385f3d66ba0428d9ea534ba9531313ccdbcddec4df19ac168de405c26074b7e2e2b2f04c3856cead8233a9c67e83ca0a6d6bce38da210af0d04cbcb6bbfe#npm:10.0.8"],\
+          ["prettier", "npm:3.6.2"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:fadc385f3d66ba0428d9ea534ba9531313ccdbcddec4df19ac168de405c26074b7e2e2b2f04c3856cead8233a9c67e83ca0a6d6bce38da210af0d04cbcb6bbfe#npm:18.2.0"],\
@@ -3935,7 +3936,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/prettier-config/",\
         "packageDependencies": [\
           ["@nether/prettier-config", "workspace:packages/prettier-config"],\
-          ["prettier", "npm:3.0.3"]\
+          ["prettier", "npm:3.6.2"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -9761,7 +9762,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:0778ed32e1ccfa918e915c7786760dfd27b64f74d526137b58fbe40fee665f1d664ce300744d561a817e6ca0429183eea0dab4a0511cb75eb4cd39b559b061d3#npm:7.37.5"],\
           ["eslint-plugin-react-hooks", "virtual:0778ed32e1ccfa918e915c7786760dfd27b64f74d526137b58fbe40fee665f1d664ce300744d561a817e6ca0429183eea0dab4a0511cb75eb4cd39b559b061d3#npm:7.0.1"],\
           ["globals", "npm:16.5.0"],\
-          ["prettier", "npm:3.0.3"],\
+          ["prettier", "npm:3.6.2"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:fadc385f3d66ba0428d9ea534ba9531313ccdbcddec4df19ac168de405c26074b7e2e2b2f04c3856cead8233a9c67e83ca0a6d6bce38da210af0d04cbcb6bbfe#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"],\
@@ -9774,6 +9775,7 @@ const RAW_RUNTIME_STATE =
           "@types/react",\
           "@types/typescript",\
           "eslint",\
+          "prettier",\
           "react-dom",\
           "react",\
           "typescript"\
@@ -9791,7 +9793,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:0778ed32e1ccfa918e915c7786760dfd27b64f74d526137b58fbe40fee665f1d664ce300744d561a817e6ca0429183eea0dab4a0511cb75eb4cd39b559b061d3#npm:7.37.5"],\
           ["eslint-plugin-react-hooks", "virtual:0778ed32e1ccfa918e915c7786760dfd27b64f74d526137b58fbe40fee665f1d664ce300744d561a817e6ca0429183eea0dab4a0511cb75eb4cd39b559b061d3#npm:7.0.1"],\
           ["globals", "npm:16.5.0"],\
-          ["prettier", "npm:3.0.3"],\
+          ["prettier", "npm:3.6.2"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:8c13e627e6deb19078d974abdd9156c85b9638933dfa78910105b7d4c03b2ff0574bba6b2db1739da7266d76042a773b9237321f0d153a21a086752b19841c68#npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"],\
@@ -12997,7 +12999,7 @@ const RAW_RUNTIME_STATE =
           ["lint-staged", "npm:14.0.1"],\
           ["nether", "workspace:."],\
           ["pinst", "npm:3.0.0"],\
-          ["prettier", "npm:3.0.3"],\
+          ["prettier", "npm:3.6.2"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
@@ -13774,10 +13776,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:3.0.3", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.0.3-fced695dae/node_modules/prettier/",\
+      ["npm:3.6.2", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.6.2-2668152203/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.0.3"]\
+          ["prettier", "npm:3.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\

@@ -1,7 +1,10 @@
 {
   "name": "@nether/prettier-config",
-  "main": "./config.js",
+  "type": "module",
+  "exports": {
+    ".": "./config.mjs"
+  },
   "devDependencies": {
-    "prettier": "^3.0.3"
+    "prettier": "^3.6.2"
   }
 }
