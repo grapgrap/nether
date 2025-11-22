@@ -1,6 +1,6 @@
 {
   "extends": "@nether/tsconfig/react",
-  "include": ["src", "css"],
+  "include": ["src"],
   "compilerOptions": {
     "rootDir": "./"
   }
