@@ -1,5 +1,5 @@
 {
-  "extends": "@nether/tsconfig/base",
+  "extends": ["@nether/tsconfig"],
   "compilerOptions": {
     "types": ["node"]
   },

@@ -1,5 +1,5 @@
 {
-  "extends": "@nether/tsconfig/react",
+  "extends": ["@nether/tsconfig/react"],
   "include": ["src"],
   "compilerOptions": {
     "types": ["vite/client"]
