@@ -1,0 +1,7 @@
+{
+  "extends": ["@nether/tsconfig/react"],
+  "include": ["app", ".react-router/types/**/*"],
+  "compilerOptions": {
+    "types": ["vite/client", "node"]
+  }
+}
