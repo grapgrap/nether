@@ -8,5 +8,10 @@ export default defineConfig(
   base,
   react.configs["recommended-typescript"],
   hooks.configs.flat.recommended,
-  refresh.configs.recommended
+  refresh.configs.recommended,
+  {
+    rules: {
+      "react-refresh/only-export-components": "off",
+    },
+  }
 );
