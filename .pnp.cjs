@@ -1833,16 +1833,19 @@ const RAW_RUNTIME_STATE =
           ["eslint", "virtual:92b74aa370a3d1b8486fcc3b03366443ca3a4065b2134d3eaa7f29eff4bed1f4ae77b27a0c0a2f11186d01da2d82ec9438549cd87928d7fc72570075a130ec83#npm:9.39.1"],\
           ["eslint-config-nether", "virtual:f8bd616f55952a395d88a66adf0dc98cce4821fce2514366301f445ea96421d4835cb623f1cf1e138304f7d1c4361f76cfd310e03632d5f3ba8060d95e397409#workspace:packages/eslint-config-nether"],\
           ["gray-matter", "npm:4.0.3"],\
+          ["isbot", "npm:5.1.32"],\
           ["normalize.css", "npm:8.0.1"],\
           ["react", "npm:19.2.1"],\
           ["react-dom", "virtual:f8bd616f55952a395d88a66adf0dc98cce4821fce2514366301f445ea96421d4835cb623f1cf1e138304f7d1c4361f76cfd310e03632d5f3ba8060d95e397409#npm:19.2.1"],\
           ["react-router", "virtual:f8bd616f55952a395d88a66adf0dc98cce4821fce2514366301f445ea96421d4835cb623f1cf1e138304f7d1c4361f76cfd310e03632d5f3ba8060d95e397409#npm:7.10.1"],\
+          ["rehype-sanitize", "npm:6.0.0"],\
           ["rehype-stringify", "npm:10.0.1"],\
           ["remark-parse", "npm:11.0.0"],\
           ["remark-rehype", "npm:11.1.2"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"],\
           ["unified", "npm:11.0.5"],\
-          ["vite", "virtual:f8bd616f55952a395d88a66adf0dc98cce4821fce2514366301f445ea96421d4835cb623f1cf1e138304f7d1c4361f76cfd310e03632d5f3ba8060d95e397409#npm:7.2.7"]\
+          ["vite", "virtual:f8bd616f55952a395d88a66adf0dc98cce4821fce2514366301f445ea96421d4835cb623f1cf1e138304f7d1c4361f76cfd310e03632d5f3ba8060d95e397409#npm:7.2.7"],\
+          ["zod", "npm:4.1.13"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -5369,6 +5372,18 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["hast-util-sanitize", [\
+      ["npm:5.0.2", {\
+        "packageLocation": "./.yarn/cache/hast-util-sanitize-npm-5.0.2-0d60cd6a2c-2095165207.zip/node_modules/hast-util-sanitize/",\
+        "packageDependencies": [\
+          ["@types/hast", "npm:3.0.4"],\
+          ["@ungap/structured-clone", "npm:1.3.0"],\
+          ["hast-util-sanitize", "npm:5.0.2"],\
+          ["unist-util-position", "npm:5.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["hast-util-to-html", [\
       ["npm:9.0.5", {\
         "packageLocation": "./.yarn/cache/hast-util-to-html-npm-9.0.5-6348e644eb-b7a08c30ba.zip/node_modules/hast-util-to-html/",\
@@ -7340,6 +7355,17 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/readdirp-npm-4.1.2-3440472afe-60a14f7619.zip/node_modules/readdirp/",\
         "packageDependencies": [\
           ["readdirp", "npm:4.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["rehype-sanitize", [\
+      ["npm:6.0.0", {\
+        "packageLocation": "./.yarn/cache/rehype-sanitize-npm-6.0.0-121642631f-43d6c056e6.zip/node_modules/rehype-sanitize/",\
+        "packageDependencies": [\
+          ["@types/hast", "npm:3.0.4"],\
+          ["hast-util-sanitize", "npm:5.0.2"],\
+          ["rehype-sanitize", "npm:6.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
