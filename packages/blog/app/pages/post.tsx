@@ -1,10 +1,14 @@
-import { useLoaderData } from "react-router";
+import { redirect, useLoaderData } from "react-router";
 import { getPostBySlug } from "../posts/post.server";
 
 export const loader = async ({ params }: { params: Record<string, string> }) => {
   const slug = params["*"] || "";
-  const post = await getPostBySlug(slug);
-  return post;
+  try {
+    const post = await getPostBySlug(slug);
+    return post;
+  } catch {
+    throw redirect("/");
+  }
 };
 
 const PostDetail = () => {
