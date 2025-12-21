@@ -1,6 +1,9 @@
 import { Links, Meta, Outlet, Scripts, ScrollRestoration } from "react-router";
+import "./styles/global.css";
+import { light } from "./styles/theme.css";
 
 export default function Root() {
+  const [className] = light;
   return (
     <html lang="ko">
       <head>
@@ -9,8 +12,10 @@ export default function Root() {
         <Meta />
         <Links />
       </head>
-      <body>
-        <Outlet />
+      <body className={className}>
+        <main>
+          <Outlet />
+        </main>
         <ScrollRestoration />
         <Scripts />
       </body>
