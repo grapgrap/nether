@@ -42,6 +42,7 @@ export const getPostBySlug = async (slug: string): Promise<Post> => {
 const parseMetadata = (data: Record<string, unknown>): PostMetadata => {
   return z
     .object({
+      slug: z.string(),
       title: z.string(),
       tags: z.string().array().default([]),
       isDraft: z.boolean().default(true),
