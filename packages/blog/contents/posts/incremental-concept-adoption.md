@@ -1,4 +1,5 @@
 ---
+slug: incremental-concept-adoption
 title: 컨셉을 점진적으로 적용하는 방법
 date: 2025-11-29
 tags: [develop]

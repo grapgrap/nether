@@ -1,4 +1,5 @@
 ---
+slug: writing-code-with-concepts
 title: 코드를 작성하는 방법에 대한 고찰
 date: 2025-11-29
 tags: [develop]

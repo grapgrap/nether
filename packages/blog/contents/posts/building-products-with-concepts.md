@@ -1,4 +1,5 @@
 ---
+slug: building-products-with-concepts
 title: 제품을 만드는 방법에 대한 고찰
 date: 2025-11-29
 tags: [develop]
