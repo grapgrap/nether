@@ -1,13 +1,17 @@
 import { redirect, useLoaderData } from "react-router";
 import { getPostBySlug } from "../posts/post.server";
+import type { Route } from "./+types/post";
 
-export const loader = async ({ params }: { params: Record<string, string> }) => {
-  const slug = params["*"] || "";
+export const loader = async ({ params }: Route.LoaderArgs) => {
+  const slug = params.slug;
   try {
     const post = await getPostBySlug(slug);
     return post;
-  } catch {
-    throw redirect("/");
+  } catch (error) {
+    if (error instanceof Error && error.message.startsWith("Cannot found")) {
+      throw redirect("/404");
+    }
+    throw error;
   }
 };
 

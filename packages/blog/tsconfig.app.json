@@ -2,6 +2,7 @@
   "extends": ["@nether/tsconfig/react"],
   "include": ["app", ".react-router/types/**/*"],
   "compilerOptions": {
+    "rootDirs": [".", "./.react-router/types"],
     "types": ["vite/client", "node"]
   }
 }
