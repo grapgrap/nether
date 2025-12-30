@@ -13,30 +13,41 @@ import type { PostMetadata } from "./types/post-metadata";
 const POST_BASE_PATH = path.join(process.cwd(), "contents", "posts");
 const POST_EXT = ".md";
 
+const getPostFiles = async (): Promise<string[]> => {
+  const files = await fs.readdir(POST_BASE_PATH);
+  return files
+    .filter((file) => file.endsWith(POST_EXT))
+    .map((file) => path.join(POST_BASE_PATH, file));
+};
+
+const readPostFile = async (filePath: string) => {
+  const fileContents = await fs.readFile(filePath, "utf-8");
+  return matter(fileContents);
+};
+
+const findPostFileBySlug = async (
+  slug: string
+): Promise<{ data: Record<string, unknown>; content: string }> => {
+  const files = await getPostFiles();
+
+  for (const filePath of files) {
+    const { data, content } = await readPostFile(filePath);
+    const metadata = parseMetadata(data);
+
+    if (metadata.slug === slug) {
+      return { data, content };
+    }
+  }
+
+  throw new Error("Cannot found post with slug: " + slug);
+};
+
 export const getPostBySlug = async (slug: string): Promise<Post> => {
-  if (!/^[a-zA-Z0-9\-/]+$/.test(slug)) {
-    throw new Error("Invalid slug format");
-  }
-
-  const filePath = path.join(POST_BASE_PATH, `${slug}${POST_EXT}`);
-
-  let fileContents: string;
-  try {
-    fileContents = await fs.readFile(filePath, "utf-8");
-  } catch (error) {
-    throw new Error("Cannot found post file.", { cause: error });
-  }
-
-  const { data, content } = matter(fileContents);
-
+  const { data, content } = await findPostFileBySlug(slug);
   const metadata = parseMetadata(data);
   const contents = await parseMd(content);
 
-  return {
-    slug,
-    metadata,
-    contents,
-  };
+  return { slug, metadata, contents };
 };
 
 const parseMetadata = (data: Record<string, unknown>): PostMetadata => {
