@@ -1360,6 +1360,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@fxts/core", [\
+      ["npm:1.23.0", {\
+        "packageLocation": "./.yarn/cache/@fxts-core-npm-1.23.0-7ee7aedc66-ebb9dbad7a.zip/node_modules/@fxts/core/",\
+        "packageDependencies": [\
+          ["@fxts/core", "npm:1.23.0"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@humanfs/core", [\
       ["npm:0.19.1", {\
         "packageLocation": "./.yarn/cache/@humanfs-core-npm-0.19.1-e2e7aaeb6e-aa4e015217.zip/node_modules/@humanfs/core/",\
@@ -1819,6 +1829,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/blog", {\
         "packageLocation": "./packages/blog/",\
         "packageDependencies": [\
+          ["@fxts/core", "npm:1.23.0"],\
           ["@nether/blog", "workspace:packages/blog"],\
           ["@nether/tsconfig", "workspace:packages/tsconfig"],\
           ["@react-router/dev", "virtual:f8bd616f55952a395d88a66adf0dc98cce4821fce2514366301f445ea96421d4835cb623f1cf1e138304f7d1c4361f76cfd310e03632d5f3ba8060d95e397409#npm:7.10.1"],\
@@ -8110,6 +8121,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/ts-pattern-npm-5.9.0-1d84960507-7640db25c3.zip/node_modules/ts-pattern/",\
         "packageDependencies": [\
           ["ts-pattern", "npm:5.9.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tslib", [\
+      ["npm:2.8.1", {\
+        "packageLocation": "./.yarn/cache/tslib-npm-2.8.1-66590b21b8-9c4759110a.zip/node_modules/tslib/",\
+        "packageDependencies": [\
+          ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
       }]\
