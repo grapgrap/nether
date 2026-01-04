@@ -4,6 +4,7 @@ import parse from "remark-parse";
 import rehype from "remark-rehype";
 import { unified } from "unified";
 import { z } from "zod";
+import type { Matter, Post } from "./types/post";
 import type { PostMetadata } from "./types/post-metadata";
 
 export const parseMetadata = (data: Record<string, unknown>): PostMetadata => {
@@ -27,4 +28,15 @@ export const parseMarkdown = async (content: string): Promise<string> => {
     .process(content);
 
   return parsed.toString();
+};
+
+export const parsePost = async (matter: Matter): Promise<Post> => {
+  const metadata = parseMetadata(matter.data);
+  const contents = await parseMarkdown(matter.content);
+
+  return {
+    slug: metadata.slug,
+    metadata,
+    contents,
+  };
 };

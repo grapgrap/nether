@@ -5,3 +5,8 @@ export interface Post {
   metadata: PostMetadata;
   contents: string;
 }
+
+export interface Matter {
+  data: Record<string, unknown>;
+  content: string;
+}
