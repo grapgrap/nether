@@ -39,13 +39,13 @@ const findPostFileBySlug = async (
     }
   }
 
-  throw new Error("Cannot found post with slug: " + slug);
+  throw new Error(`Cannot found post with slug: ${slug}`);
 };
 
 export const getPostBySlug = async (slug: string): Promise<Post> => {
   const { data, content } = await findPostFileBySlug(slug);
   const metadata = parseMetadata(data);
-  const contents = await parseMd(content);
+  const contents = await parseMarkdown(content);
 
   return { slug, metadata, contents };
 };
@@ -62,12 +62,13 @@ const parseMetadata = (data: Record<string, unknown>): PostMetadata => {
     .parse(data);
 };
 
-const parseMd = async (content: string): Promise<string> => {
+const parseMarkdown = async (content: string): Promise<string> => {
   const parsed = await unified()
     .use(parse)
     .use(rehype)
     .use(sanitize)
     .use(stringify)
     .process(content);
-  return String(parsed);
+
+  return parsed.toString();
 };
