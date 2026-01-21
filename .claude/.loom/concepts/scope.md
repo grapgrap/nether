@@ -40,5 +40,8 @@ specify가 동작하는 범위를 정의한다.
 
 - [[concept]] - scope 내에 컨셉들이 정의됨
 - [[decision]] - scope 내에 결정들이 기록됨
+- [[index]] - scope마다 독립적인 index가 존재하여 컨셉 구조 제공
 
 ## 결정 로그
+
+- [[2026-01-22-index-컨셉-도입]]

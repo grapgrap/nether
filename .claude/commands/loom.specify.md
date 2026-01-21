@@ -73,7 +73,7 @@ monorepo/
 ```
 {scope}/.loom/concepts/{컨셉명}.md
 {scope}/.loom/decisions/{YYYY-MM-DD}-{요약}.md
-{scope}/.loom/spec.md (인덱스 업데이트)
+{scope}/.loom/index.md (인덱스 업데이트)
 ```
 
 **템플릿**:
