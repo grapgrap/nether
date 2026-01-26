@@ -2001,7 +2001,7 @@ const RAW_RUNTIME_STATE =
           ["exit-hook", "npm:2.2.1"],\
           ["isbot", "npm:5.1.32"],\
           ["jsesc", "npm:3.0.2"],\
-          ["lodash", "npm:4.17.21"],\
+          ["lodash", "npm:4.17.23"],\
           ["p-map", "npm:7.0.4"],\
           ["pathe", "npm:1.1.2"],\
           ["picocolors", "npm:1.1.1"],\
@@ -5973,10 +5973,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lodash", [\
-      ["npm:4.17.21", {\
-        "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-d8cbea072b.zip/node_modules/lodash/",\
+      ["npm:4.17.23", {\
+        "packageLocation": "./.yarn/cache/lodash-npm-4.17.23-50bdb1c01a-1264a90469.zip/node_modules/lodash/",\
         "packageDependencies": [\
-          ["lodash", "npm:4.17.21"]\
+          ["lodash", "npm:4.17.23"]\
         ],\
         "linkType": "HARD"\
       }]\
