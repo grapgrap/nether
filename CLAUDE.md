@@ -45,7 +45,7 @@ yarn --cwd packages/{패키지} lint     # ESLint 실행
 
 ```
 {scope}/.loom/
-├── index.md              # 컨셉 목록과 관계 구조 (지도)
+├── index.md              # scope의 진입점 (자기설명, 경계, 컨셉 구조)
 ├── concepts/{컨셉명}.md  # 컨셉 정의 (What/Why)
 ├── designs/{컨셉명}.md   # 구현 설계 (How), concept과 1:1 대응
 └── decisions/{날짜}-{요약}.md  # 결정 기록

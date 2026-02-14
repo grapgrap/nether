@@ -14,7 +14,7 @@
 
 ### 1단계: Scope 확인
 
-[[scope]]를 확인합니다. `/loom.specify`에서 이어지는 경우 동일한 scope를 사용합니다.
+작업할 scope를 확인합니다. `/loom.specify`에서 이어지는 경우 동일한 scope를 사용합니다.
 
 **방법**:
 
